@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+   
+   body {
+     /* background-color: grey;   */
+       background-image: url(./image/lap.jpg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+      /* height: 500px;  */
+     /* backdrop-filter: blur(4px);  */
+     
+
+ }  
+nav 
+    {
+        background-color: black;
+        height: 60px;
+        width: 100%;
+        font-size:17px;
+        } 
+    article
+       {
+        height: 60px;
+        width: 100%;
+        color: white;
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        margin: 0 auto;
+        }
+        a {
+            color: white;
+            text-decoration: none;
+           
+        }
+        A:hover {
+                   color: rgb(74, 74, 247);
+        }
+    
+
+    .main {
+             padding: 30px; 
+              margin: 10px; 
+           /* width: 95%; */
+           /* border: 1px solid black; */
+              border-bottom:1px solid black ;
+             text-align: center;
+             font-size: 20px;
+        
+    }
+    img {
+        height:60px;
+        width: 170px;
+    }
+   
+    .footer {
+             background-color:#333;
+             color: white;
+             text-align: center;
+              padding:5px;
+             position: fixed;
+             bottom: 0;
+             width:100%;
+           
+            }
+            h2 {
+               padding: 20px; 
+            }
+            p{
+               padding: 20px;
+            }
