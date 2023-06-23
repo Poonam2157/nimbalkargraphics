@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 } 
-   
+/* @media (max-width: 100px) { */
    body {
      /* background-color: grey;   */
        background-image: url(./image/lap.jpg);
@@ -12,9 +12,14 @@
      background-size: cover;
       /* height: 500px;  */
      /* backdrop-filter: blur(4px);  */
-     
-
- }  
+     } 
+    
+     @media screen and (max-width:800px) {
+        body {
+          background-image: url('small-screen-./image/lap.jpg');
+        }
+      }
+    
 nav 
     {
         background-color: black;
